@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    outline: 0;
+    
+}
+body{
+    place-items: center;
+    height: 70vh;
+    display: grid;
+}
+form{
+    width: 24rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+h2>sup{
+    color: rgb(233, 8, 195);
+    
+}
+h2{
+    padding-bottom: 50px;
+}
+input{
+    letter-spacing: 1px;
+    max-width: 450px;
+    height: 30px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(242, 241, 247);
+    border: 0;
+    border-radius:10px;
+    box-shadow: inset 0px 13px 6px 3px rgb(238, 131, 17),
+    inset 0px -13px 6px 3px rgb(3, 207, 64);
+}
+
